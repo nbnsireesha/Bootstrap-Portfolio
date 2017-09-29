@@ -1,77 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Profile</title>
-	<!--<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<nav class="navbar" id="containerheader">
+		  <div class="container">
+			    <div class="navbar-header">
+			      <h1 class="whitetext" style="margin-bottom: 0px;
+    margin-top: 0px;">BALA</h1>
+			    </div>
+			    <div id="links">
+				    <ul id="navcon" class="nav navbar-nav navbar-right justify-content-center">
+				      <li class="text-center col"><a href="index.html">About</a></li>
+				      <li class="text-center col"><a href="portfolio.html">Portfolio</a></li>
+				      <li class="text-center col"><a href="contact.html">Contact</a></li>
+				    </ul>
+			    </div>
+		  </div>
+	</nav>
 </head>
 <body>
-			<header>
-				<ul>
-					<li><h1 id="pname">Bala</h1></li>
-					<a href="index.html">
-						<li>About</li>
-					</a>
-					
-					<a href="contact.html">
-						<li>Contact</li>
-					</a>
-					<a href="portfolio.html">
-						<li>Portfolio</li>
-					</a>
-				</ul>
+	
+	<div class="jumbotron" id="container1">
+	<div class="container">
+		<div class="row" >
 
-
-			</header>
-
-		<div id="container">
-			
-
-			<section id="main-bio">
-
-				<h2>About Me</h2><br>
-
-				<img id="bio-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\siri.jpg" alt="it Me"><br>
-				<p class="aboutp">The second and third sentences are called supporting sentences. They are called "supporting" because they "support," or explain, the idea expressed in the topic sentence. Of course, paragraphs in English often have more than two supporting ideas. The paragraph above is actually a very short paragraph.Apr 4, 2000</p>
-
-				<p class="aboutp">Developing writers can often benefit from examining an essay, a paragraph, or even a sentence to determine what makes it effective. On the following pages are several paragraphs for you to evaluate on your own, along with the Writing Center's explanation.</p>
-
-			</section>
-
-			<section id="contact-info">
+			<div class="col-md-8" id="main-bio">
 				
-				<h3><strong>Connect with Me</strong></h3>
+							
+							
 
-				<ul>
-					<li>
-					    <a href="https://github.com/nbnsireesha">
-					      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_github_square_black_107109.png">
-					    </a>
-	  				</li>
+								<h2 class="contact text-left">About Me</h2><br>
 
-					<li>
-					    <a href="https://www.linkedin.com/in/bala-naga-sireesha-nekkanti-05011a69?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2F2owKLOzRYaXzt5Z5wBqDQ%3D%3D">
-					      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_linkedin_square_color_107091.png">
-					    </a>
-					</li>
+								<img id="bio-image" class="img-responsive" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\siri.jpg" alt="it Me"><br>
+								<p class="aboutp">The second and third sentences are called supporting sentences. They are called "supporting" because they "support," or explain, the idea expressed in the topic sentence. Of course, paragraphs in English often have more than two supporting ideas. The paragraph above is actually a very short paragraph.Apr 4, 2000</p>
 
-					<li>
-					    <a href="https://stackoverflow.com/users/8514142/sireesha">
-					      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_Stack_Overflow_1298710.png">
-					    </a>
-	  				</li>
+								<p class="aboutp">Developing writers can often benefit from examining an essay, a paragraph, or even a sentence to determine what makes it effective. On the following pages are several paragraphs for you to evaluate on your own, along with the Writing Center's explanation.</p>
+							
+
+				
+			</div><!-- end of main-bio col-->
+
+			<div class="col-md-4" align="center" id="contact-info">
+						<div class="navbar-header text-center ">
+							<h3 class="contact text-left">Connect with Me</h3>
+						</div>
+				
+
+							<ul>
+								<li>
+								    <a href="https://github.com/nbnsireesha">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_github_square_black_107109.png">
+								    </a>
+				  				</li>
+
+								<li>
+								    <a href="https://www.linkedin.com/in/bala-naga-sireesha-nekkanti-05011a69?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2F2owKLOzRYaXzt5Z5wBqDQ%3D%3D">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_linkedin_square_color_107091.png">
+								    </a>
+								</li>
+
+								<li>
+								    <a href="https://stackoverflow.com/users/8514142/sireesha">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_Stack_Overflow_1298710.png">
+								    </a>
+				  				</li>
+								
+							</ul>
+				
+			</div><!--end of contact-info col -->
+
+		</div><!--end of row -->
+		
+	</div><!--end of container -->
+	</div><!--end of jumbotron -->
+	<div class="container-fluid" id="footer">
+		<div class="row">
+			<footer class="col-lg-12 foo">
 					
-				</ul>
+					<p>&copy; Copyright 2017 Bala Naga Sireesha</p>
 
-			</section>
+			</footer>
 		</div>
-		<footer>
-				
-				<p>@Copyright 2017 Bala Naga Sireesha</p>
-
-		</footer>
-
+	</div>
 	
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

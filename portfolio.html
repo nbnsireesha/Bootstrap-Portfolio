@@ -1,86 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Profile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<nav class="navbar" id="containerheader">
+		  <div class="container">
+			    <div class="navbar-header">
+			      <h1 class="whitetext" style="margin-bottom: 0px;
+    margin-top: 0px;">BALA</h1>
+			    </div>
+			    <div>
+				    <ul id="navcon" class="nav navbar-nav navbar-right justify-content-center">
+				      <li class="text-center"><a href="index.html">About</a></li>
+				      <li class="text-center"><a href="portfolio.html">Portfolio</a></li>
+				      <li class="text-center"><a href="contact.html">Contact</a></li>
+				    </ul>
+			    </div>
+		  </div>
+	</nav>
 </head>
 <body>
-	<div id="overlay">
-			<header>
-				<ul>
-					<li><h1 id="pname">Bala</h1></li>
-					<a href="index.html">
-						<li>About</li>
-					</a>
-					
-					<a href="contact.html">
-						<li>Contact</li>
-					</a>
-					<a href="portfolio.html">
-						<li>Portfolio</li>
-					</a>
-				</ul>
+	
+	<div class="jumbotron" id="container1">
+	<div class="container" id="container2">
+		<div class="row" >
 
-			</header>
-
-		<div id="container">
+			<div class="col-md-8" id="main-bio">
+				<div class="contact">
+					<h2 class="text-left">Portfolio</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-6" id="placeholders1">
+						<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\1.png">
+						<div class="imgs img1">Hangman</div>
+						
+					</div>
+					<div class="col-md-6" id="placeholders2">
+						<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\2.png">
+						<div class="imgs img2">RPG gAME</div>
+						
+					</div>
 			
+						
+				</div><!--end of 1 inner row -->
+				<div class="row">
+					<div class="col-md-6" id="placeholders3">
+						<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\3.png">
+						<div class="imgs img3">Trivia Game</div>
+						
+					</div>
+					<div class="col-md-6" id="placeholders4">
+						<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\4.png">
+						<div class="imgs img4">Rutgers Info</div>
+						
+					</div>
+			
+						
+				</div><!--end of 2 inner row -->
+				<div class="row">
+					<div class="col-md-6 img-responsive" id="placeholders5">
+						<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\5.png">
+						<div class="imgs img7">Rock Paper Scissors</div>
+						
+					</div>
+			
+						
+				</div><!--end of 3 inner row -->
+			</div><!-- end of main-bio col-->
 
-			<section id="main-bio">
-
-				<p id="port-p">Portfolio</p>
-
-				<div id="placeholders1">
-					<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\1.png">
-					<div class="imgs img1">Hangman</div>
-				</div>
-
-				<div id="placeholders2">
-					<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\2.png">
-					<div class="imgs img2">RPG gAME</div>
-				</div>
-
-				<div id="placeholders3">
-					<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\3.png">
-					<div class="imgs img3">Trivia Game</div>
-				</div>
-
-				<div id="placeholders4">
-					<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\4.png">
-					<div class="imgs img4">Rutgers Info</div>
-				</div>
-
-				<div id="placeholders5">
-					<img class="port-image" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\5.png">
-					<div class="imgs img5" style="top: 573px;left: 4px;">Rock Paper Scissors</div>
-				</div>
-
-
-			</section>
-
-			<section id="contact-info">
-				
-				<h3><strong>Connect with Me</strong></h3>
-
-				<ul>
-					<li><!-- GitHub icon by Icons8 -->
-					<img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_github_square_black_107109.png"></li>
-					<li><img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_linkedin_square_color_107091.png"></li>
-					<li><img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_Stack_Overflow_1298710.png"></li>
+			<div class="col-md-4" id="contact-info">
+						<div class="navbar-header text-center contact">
+							<h3 class="text-left">Connect with Me</h3>
+						</div>
 					
-				</ul>
+							<ul>
+								<li class="img-responsive" >
+								    <a href="https://github.com/nbnsireesha">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_github_square_black_107109.png">
+								    </a>
+				  				</li>
 
-			</section>
+								<li class="img-responsive" >
+								    <a href="https://www.linkedin.com/in/bala-naga-sireesha-nekkanti-05011a69?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2F2owKLOzRYaXzt5Z5wBqDQ%3D%3D">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_linkedin_square_color_107091.png">
+								    </a>
+								</li>
+
+								<li class="img-responsive" >
+								    <a href="https://stackoverflow.com/users/8514142/sireesha">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_Stack_Overflow_1298710.png">
+								    </a>
+				  				</li>
+								
+							</ul>
+
+			</div><!--end of contact-info col -->
+
+		</div><!--end of row -->
+		
+	</div><!--end of container -->
+	</div><!--end of jumbotron -->
+	<div class="container-fluid" id="footer">
+		<div class="row">
+			<footer class="col-lg-12 foo">
+					
+					<p>&copy; Copyright 2017 Bala Naga Sireesha</p>
+
+			</footer>
 		</div>
-		<footer>
-				
-				<p>@Copyright 2017 Bala Naga Sireesha</p>
-
-		</footer>
-
 	</div>
+	
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

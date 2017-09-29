@@ -1,76 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Profile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<nav class="navbar" id="containerheader">
+		  <div class="container">
+			    <div class="navbar-header">
+			      <h1 class="whitetext" style="margin-bottom: 0px;
+    margin-top: 0px;">BALA</h1>
+			    </div>
+			    <div>
+				    <ul id="navcon" class="nav navbar-nav navbar-right justify-content-center">
+				      <li class="text-center"><a href="index.html">About</a></li>
+				      <li class="text-center"><a href="portfolio.html">Portfolio</a></li>
+				      <li class="text-center"><a href="contact.html">Contact</a></li>
+				    </ul>
+			    </div>
+		  </div>
+	</nav>
 </head>
 <body>
-	<div id="overlay">
-			<header>
-				<ul>
-					<li><h1 id="pname">Bala</h1></li>
-					<a href="index.html">
-						<li>About</li>
-					</a>
+	
+	<div class="jumbotron" id="container1">
+	<div class="container">
+		<div class="row" >
+
+			<div class="col-md-8 grig-gutter-min" id="main-bio">
+				
+				<div class="navbar-header">
+			      <h2 class="contact navbar-header">Contact</h2>
+			    </div>
+				<form>
+					<div class="form-group">
+
+						<label class="control-label" for="name">Name</label>
+	    				<input type="text" class="form-control input-lg" id="name" placeholder="John Smith">
+	    				
+
+	    				<label for="email">Email</label>
+	    				<input type="email" class="form-control input-lg" id="email" placeholder="example@gmail.com">
+	    				
+
+	    				<label for="message">Message</label>
+	    				<textarea class="form-control input-lg" rows="4"></textarea>
+	    				
 					
-					<a href="contact.html">
-						<li>Contact</li>
-					</a>
-					<a href="portfolio.html">
-						<li>Portfolio</li>
-					</a>
-				</ul>
+					</div>
 
-			</header>
-
-		<div id="container">
-			
-
-			<section id="main-bio">
-
-				<form action="">
-
-						<p id="contacth1">Contact</p>
-
-						<label for="fname">Name</label>
-
-						<br><input type="text" id="fname" name="name" placeholder="John Smith"><br>
-
-						<label for="femail">Email</label>
-
-						<br><input type="text" id="femail" name="email" placeholder="example@gmail.com"><br>
-
-						Message<br><textarea rows="4" cols="50"></textarea><br>
-
-						<input type="submit" value="submit" id="submit">
-
+					<button type="submit" class="btn" class="btn btn-default">Submit</button>
+							
 				</form>
-
-
-			</section>
-
-			<section id="contact-info">
 				
-				<h3><strong>Connect with Me</strong></h3>
+			</div><!-- end of main-bio col-->
 
-				<ul>
-					<li><!-- GitHub icon by Icons8 -->
-					<img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_github_square_black_107109.png"></li>
-					<li><img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_linkedin_square_color_107091.png"></li>
-					<li><img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_Stack_Overflow_1298710.png"></li>
+			<div class="col-md-4" id="contact-info">
+						<div class="navbar-header text-center">
+							<h3 class="contact text-left">Connect with Me</h3>
+						</div>
+				
+
+							<ul>
+								<li>
+								    <a href="https://github.com/nbnsireesha">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_github_square_black_107109.png">
+								    </a>
+				  				</li>
+
+								<li>
+								    <a href="https://www.linkedin.com/in/bala-naga-sireesha-nekkanti-05011a69?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2F2owKLOzRYaXzt5Z5wBqDQ%3D%3D">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_linkedin_square_color_107091.png">
+								    </a>
+								</li>
+
+								<li>
+								    <a href="https://stackoverflow.com/users/8514142/sireesha">
+								      <img class="small" src="C:\Users\Sirisha\Desktop\home-work\total-proj\images\if_Stack_Overflow_1298710.png">
+								    </a>
+				  				</li>
+								
+							</ul>
+				
+			</div><!--end of contact-info col -->
+
+		</div><!--end of row -->
+		
+	</div><!--end of container -->
+	</div><!--end of jumbotron -->
+	<div class="container-fluid" id="footer">
+		<div class="row">
+			<footer class="col-lg-12 foo">
 					
-				</ul>
+					<p>&copy; Copyright 2017 Bala Naga Sireesha</p>
 
-			</section>
+			</footer>
 		</div>
-		<footer>
-				
-				<p>@Copyright 2017 Bala Naga Sireesha</p>
-
-		</footer>
-
 	</div>
+	
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
